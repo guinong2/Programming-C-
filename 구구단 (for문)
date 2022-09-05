@@ -5,6 +5,7 @@ int main()
 {
  int a ; // 변수 입력
 
+
   scanf ("%d", &a);
 
 
