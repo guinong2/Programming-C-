@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+  int a;
+  int b;
+
+  scanf("%d", &a); // 입력값 받기
+
+  for(b=2;b<=a;b++) // 출력 조건과 같이 for문 작성
+    {
+      printf("%d %d\n", b ,b); // 출력
+    }
+  return 0;
+}
+
+
+#include <stdio.h>
+
+int main() {
+  int a;
+  int b;
+
+  scanf("%d", &a); // 입력값 받기
+
+  for(b=0;b<9;b++) // 곱하기 1부터 9까지 출력
+    {
+      printf("%d*%d + %d = %d\n", a ,b+1 , a+b,a*(b+1)+(a+b)); // 입력값의 구구단과 더하기 n+1 출력 
+    }
+  return 0;
+}
